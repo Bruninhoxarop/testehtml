@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="darkmode.css">
+</head>
+
+<body>
+    <form action="Mensagem.html">
+
+        <!-- "Form" é um tipo de página de texto em que tudo que escrever nele, é enviado para o "action". -->
+        <!-- "Action" é um tipo de link, porém tem q ter o "input type summir value enviar" -->
+        <!-- "Input" é um de caixa de texto q varia do "type" para o que pode ser inserido nele. -->
+        <!-- "Type" é o tipo de caixa.  e dependendo do propósito do input, pode haver mais coisas. -->
+        <!-- "name" o nome do grupo da caixa. -->
+        <!-- dependendo do propósito do input, pode haver mais coisas. -->
+
+        Primeiro nome:
+        <input type="text" name="firstname" /> <br />
+
+        Ultimo nome:
+        <input type="text" name="lastname" /> <br />
+        <!-- "text" só texto.-->
+
+        <label>Usuário:<input type="text" name="user" id="user" /></label> <br />
+        <!-- "name usuário ou id usuário" -->
+        <!-- "id" identificação. -->
+
+        <label>Senha:<input type="password" name="password" /></label> <br />
+        <!-- "type password" senha. -->
+        <!-- Label muda nada visualmente -->
+
+        Tipo de pessoa: <br>
+
+        CPF
+        <input type="radio" name="tipo" value="física"> <br>
+        CNPJ
+        <input type="radio" name="tipo" value="jurídica"> <br>
+        <!-- "radio" é o tipo de botão de escolha única, se ele estiver em grupos diferentes, acaba podendo selecionar mais de um. -->
+        <!-- "value" valor da caixa. -->
+
+        Eu tenho uma bicicleta <br>
+        <input type="checkbox" name="bike"> <br>
+
+        Eu tenho um carro <br>
+        <input type="checkbox" name="car"> <br>
+        <!-- "checkbox" Pode selecionar vários, independente do "name" ou grupo. -->
+
+        <select name="carros">
+            <option value="Volvo">Volvo</option>
+            <option value="Saab">Saab</option>
+            <option value="Fiat">Fiat</option>
+            <option value="Audi">Audi</option>
+        </select>
+
+        <textarea rows="10" cols="30">
+            Site Básico, precisa melhorar com JavaScript
+        </textarea>
+        <!-- "textarea" cria um campo q o usuário pode escrever oq quiser, como em pesquisa de avaliações. -->
+        <!-- "rows" é o tanto de linha -->
+        <!-- "cols" é o tanto de coluna -->
+
+        <fieldset>
+            <legend>O que você deseja fazer ?</legend>
+            <input type="button" value="Oi Mundo!"><br>
+            <!-- "button" um exemplo de botão. -->
+            <input type="reset" value="Cancelar"> <br>
+            <!-- "reset" um reset '-'. -->
+            <input type="submit" value="Enviar"> <br>
+            <!-- "submit" envio de algo. -->
+        </fieldset>
+        <!-- "fieldset" um campo de escolhas. -->
+    </form>
+</body>
+
+</html>
