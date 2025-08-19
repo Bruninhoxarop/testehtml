@@ -1,9 +1,40 @@
+/*Corpo*/
+/*background-image:url('imagem.gif') para por imagem no fundo*/
+/*background-repeat: no-repeat; (imagem de fundo n se repete)*/
+/*background-position: 0 0; (onde começa a imagem de fundo, sendo em px)*/
+/*text-decoration: line-thought, none, overline ou underline (sublinhos no texto*/
+/*text-transform: capitalize, uppercase ou lowercase; (se o texto vai ficar em capslock ou n)*/
+/*text-indent: ?px; (espaçamento apenas na primeira linha)*/
+/*margin left ou right: ?px; (espaçamento nos cantos da tela)*/
+/*line-height: 1.5; (espaçamento entre linhas)*/
+/*writing-mode: vertical-lr (escrita na vertical)*/
+
 body {
-    background-color: black;
+    background-image:url('bc8I3kdk_400x400.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0 0;
+    background-size: 1900px 1000px;
     color: white;
 }
 
-li {
+li:hover {
+    color: rgb(0, 0, 255);
+    background-color: rgb(172, 172, 34);
+}
+
+h1 {
     color: blue;
-    background-color: yellow;
+    font-size: 12px;
+}
+
+h3{
+    color: white;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-indent: 40px;
+    line-height: 1.5;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
 }
