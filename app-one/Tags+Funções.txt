@@ -1,0 +1,52 @@
+Mudança de texto
+.justify-content (mexe na vertical)
+.align-items (mexe na horizontal)
+.flex-direction (mexe na posição dos texto)
+.order (mexe na ordem dos items manualmente indo de 0 a positivo ou negativo)
+.align-self (para items individuais)
+.flex-wrap (quebra de linha)
+.flex-flow (combinação de wrap e direction, tem q usar os comando dos dois separados por espaço)
+.flex-direction muda com o wrap, se lembrar disso.
+.align-content (alinha tudo com comandos iguais ao 'justify-content')
+.text-decoration: line-thought, none, overline ou underline (sublinhos no texto)
+.text-transform: capitalize, uppercase ou lowercase; (se o texto vai ficar em capslock ou n)
+.text-indent: ?px; (espaçamento apenas na primeira linha)
+.font-size: px, palavras chaves e mais (fonte)
+.writing-mode: vertical-lr (escrita na vertical)
+.text-orientation: (lado onde texto ficará, podendo ser na vertical)
+.line-height: 1.5; (espaçamento entre linhas)
+.a href='' (link)
+.color (cor da fonte)
+
+Mudança de imagem
+.background-image:url('imagem.gif') (para por imagem no fundo)
+.background-repeat: no-repeat; (imagem de fundo n se repete)
+.background-position: ?px ?px; (onde começa a imagem de fundo, sendo em px, altura e largura)
+.background-attachment: fixed ou scroll; (como a imagem ficará ao rolar a tela)
+.background-size: ?px ?px; (tamanho da imagem)
+.background-color: 'cor' (cor de fundo)
+.margin left ou right: ?px; (espaçamento da imagem nos cantos da tela)
+
+Adicionais de Tags (n sei como chamar exatamente)
+.'tag':hover (mudança de aparência ao passar o mouse por cima)
+.a:link (quando o link não foi visitado)
+.a:visited (quando o link foi visitado)
+.a:hover (ao passar o mouse por cima)
+.a:active (quando o link está ativo)
+
+Tipos de listas
+.ol + li: lista ordenada
+.ul + li: lista não-ordenada
+.list-style-type: square e outros; (muda a forma da lista não-ordenada)
+.list-style-image: url(''); (imagem na lista)
+.list-style-type: upper-roman; (muda a forma da lista ordenada)
+
+Tipos de tabelas
+.table (campo para início de uma tabela)
+.tr (blocos das tabelas)
+.th ou th (escrita dentro das tabelas)
+.border-collapse: collapse e outros; (se vai mostrar uma borda única ou bordas dentro da borda da tabela)
+.border: ?px solid 'cor'; (borda)
+.width: ?px; (largura)
+.height: ?px; (altura)
+.padding: ?px (preenchimento entre o conteúdo da tabela e a borda)

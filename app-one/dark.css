@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.coisas {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+/*justify-content mexe na vertical*/
+/*align-items mexe na horizontal*/
+/*flex-direction mexe na posição dos items*/
+/*order mexe na ordem dos items manualmente indo de 0 a positivo ou negativo*/
+/*align-self para items individuais*/
+/*flex-wrap quebra de linha*/
+/*flex-flow combinação de wrap e direction, tem q usar os comando dos dois separados por espaço*/
+/*flex-direction muda com o wrap, se lembrar disso*/
+/*align-content alinha tudo com comandos iguais ao 'justify-content'*/

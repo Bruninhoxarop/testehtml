@@ -1,0 +1,85 @@
+/*Corpo*/
+/*background-image:url('imagem.gif') para por imagem no fundo*/
+/*background-repeat: no-repeat; (imagem de fundo n se repete)*/
+/*background-position: 0 0; (onde começa a imagem de fundo, sendo em px)*/
+/*text-decoration: line-thought, none, overline ou underline (sublinhos no texto*/
+/*text-transform: capitalize, uppercase ou lowercase; (se o texto vai ficar em capslock ou n)*/
+/*text-indent: ?px; (espaçamento apenas na primeira linha)*/
+/*margin left ou right: ?px; (espaçamento nos cantos da tela)*/
+/*line-height: 1.5; (espaçamento entre linhas)*/
+/*writing-mode: vertical-lr (escrita na vertical)*/
+/*text-orientation: lado onde texto ficará, podendo ser na vertical*/
+/*border-collapse: collapse; (serve se vai mostrar uma borda única ou bordas dentro de bordas)*/
+
+body {
+    background-image:url('bc8I3kdk_400x400.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0 0;
+    background-size: 100px 100px;
+    color: black; 
+    font-size: medium /*ou em 'px' e outros baguis.*/
+}
+
+li:hover {
+    color: rgb(0, 0, 255);
+    background-color: rgb(172, 172, 34);
+}
+
+h1 {
+    color: blue;
+    font-size: 12px;
+}
+
+h3{
+    color: white;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-indent: 40px;
+    line-height: 1.5;
+    /*writing-mode: vertical-lr;
+    text-orientation: upright;*/
+}
+
+a:link{
+    color: #ff0000;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: #ff0000;
+}
+
+a:active{
+    color: blue;
+}
+
+ul{
+    list-style-type: square;
+    list-style-image: url('103a89fb386350b567034a371e43c015.jpg');
+    margin-left: 350px;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+table, th, tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50px;
+    height: 75px;
+}
+
+th{
+    height: 30px;
+    background-color: aqua;
+}
+
+tr{
+    padding: 10px;
+}
